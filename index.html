@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MadLibs</title>
+  <script src="mad.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+  <h1>Mad Lib</h1>
+  <div id="story" class="input">
+    <p>Plural Noun:</p>
+    <input type="text" id="pluralnoun" placeholder="Dogs">
+    <p>A noun:</p>
+    <input type="text" id="nounone" placeholder="bike">
+    <p>Another Noun:</p>
+    <input type="text" id="nountwo" placeholder="apple">
+    <p>A song:</p>
+    <input type="text" id="song" placeholder="Overdue">
+    <p>A verb:</p>
+    <input type="text" id="verb" placeholder="run"></br></br>
+    <button id="libbutton" onclick="madLibs()">Create lib</button>
+  </div>
+
+  <br />
+
+  <div id="output" class="hidden">
+    <div id="spacer">
+      <p id="mystory"></p>
+      <button type="button" id="again" class="button" onclick="javascript:again();">Go Again?</button>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

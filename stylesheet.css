@@ -1,0 +1,34 @@
+h1 {
+  color: white;
+  text-align: center;
+  background-color: darkslategray;
+  margin-left: 40%;
+  margin-right: 40%;
+  border: 10px double white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hidden {
+  display: none;
+}
+
+#story,
+#output {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: darkslategray;
+  margin: 0 auto;
+  width: 600px;
+  border: 10px double white;
+  padding: 0 2em 1em;
+  font-weight: bold;
+  color: white;
+}
+
+body {
+  background-color: red;
+}
+
+#output {
+  line-height: 250%;
+}
